@@ -35,6 +35,24 @@ i{
 h2{
 	font-family: "Roboto Med Serif", serif;
 }
+.est-v-nalichii{
+				font-family: "Roboto Med";
+				font-size: 13px;
+				color: #81c250;
+				display: block;
+			}
+			.net-v-nalichii{
+				font-family: "Roboto Med";
+				font-size: 13px;
+				color: #ff8888;
+				display: block;
+			}
+			.pod-zakaz{
+				font-family: "Roboto Med";
+				font-size: 13px;
+				color: #ffb954;
+				display: block;
+			}
 .selected{
 	background-color: #ec4739;
 	width: 118px;
@@ -98,7 +116,7 @@ body{
 
 }
 	.logo{
-		margin-top: 20px;
+		margin-top: 30px;
 		img{
 			width: 70px;
 			height: 70px;
@@ -273,10 +291,10 @@ header{
 		ul{
 			list-style: none;
 			padding: 0;
-			margin-top: 12px;
-			margin-bottom: 10px;
+			margin-top: 8px;
+			margin-bottom: 8px;
 			li{
-				margin-right: 14px;
+				margin-right: 16px;
 				display: inline-block;
 				a{
 					font-size: 13px;
@@ -291,9 +309,10 @@ header{
 	}
 	.person{
 		text-align: right;
-		margin-top: 10px;
+		margin-top: 8px;
 		display: inline-block;
 		a{
+			vertical-align: middle;
 			font-size: 13px;
 			color: #cacaca;
 			text-decoration: none;
@@ -309,13 +328,14 @@ header{
 	}
 	.telefon{
 		text-align: right;
-		margin-top: 10px;
+		margin-top: 8px;
 		display: inline-block;
 		padding: 0;
 		a{
 			font-size: 13px;
 			color: #cacaca;
 			text-decoration: none;
+			vertical-align: middle;
 		}
 		a:hover{
 			color: #ec4739;
@@ -329,7 +349,7 @@ header{
 		height: 1px;	
 	}
 	.call{
-			margin-top: 25px;
+			margin-top: 30px;
 			text-align: right;
 			display: inline-block;
 			font-family: "Roboto";
@@ -357,8 +377,8 @@ header{
 			text-align: right;
 			color: #f5f5f5;
 			font-size: 13px;
-			margin-top: 20px;
-			margin-bottom: 20px;
+			margin-top: 18px;
+			margin-bottom: 13px;
 			margin-left: 19px;
 			a{
 				img{
@@ -379,7 +399,7 @@ header{
 			
 		}
 		.icon:last-of-type{
-			margin-top: 19px;
+			margin-top: 13px;
 			margin-left: 10px;
 			ul{
 				list-style: none;
@@ -549,6 +569,8 @@ header{
 		list-style: none;
 		padding: 0;
 		width: 700px;
+		margin-top: 11px;
+		margin-bottom: 11px;
 			li{
 				display: inline-block;
 				span{
@@ -646,6 +668,8 @@ header{
 		font-family: "Roboto Med Serif";
 		font-size: 21px;
 		color: #292929;
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 	.object{
 		border:1px solid #dddddd;
@@ -691,7 +715,7 @@ header{
 .analog{
 	text-align: right;
 	margin-top: 40px;
-	margin-bottom: 115px;
+	margin-bottom: 113px;
 	a{
 		text-decoration: underline;
 		margin-right: 40px;
@@ -699,7 +723,7 @@ header{
 }
 .all{
 	margin-top: 40px;
-	margin-bottom: 116px;
+	margin-bottom: 113px;
 	a{
 		text-decoration: underline;
 		margin-left: -40px;
@@ -713,6 +737,7 @@ header{
 			margin-left: 4px;
 			font-family: "Roboto Med";
 			color: #748b9e;
+			vertical-align: middle;
 		}
 	}
 }
@@ -880,16 +905,26 @@ header{
 			text-align: right;
 			text-decoration: line-through;
 			color: #aaaaaa;
+			line-height: 11px;
 		}
 		.price{
-			font-size: 15px;
+
 			font-family: "Roboto";
 			font-weight: bold;
 			width: 100%;
 			margin: 0;
+			height: 32px;
 			position: relative;
 			padding-bottom: 5px;
-			span{
+			.price-cena{
+				font-size: 15px!important;
+				position: absolute;
+				left: 0;
+				font-size: 23px;
+				bottom: 0;
+			}
+			span:last-of-type{
+				bottom: 0;
 				position: absolute;
 				right: 0;
 				font-size: 23px;
@@ -967,8 +1002,8 @@ header{
 		}
 	button{
 		width: 100%;
-		margin-top: 13px;
-		padding: 13px;
+		margin-top: 10px;
+		padding: 10px;
 	}	
 	button:first-of-type{
 		text-transform: uppercase;
@@ -990,6 +1025,7 @@ header{
 		display: flex;
 		justify-content: space-around;
 		.like{
+			height: 18px;
 			a{
 				display: block;
 				
@@ -1048,16 +1084,17 @@ header{
 		margin: 0;
 		font-family: "Roboto";
 		font-weight: normal;
-		padding: 5px 20px;
+		padding: 6px 20px;
 		color: #5a5a5a;
 	}
 	.special{
-		padding: 6px 15px;
+		padding: 8px 15px;
 		.special-item{
-			padding: 3px 0px;
+			padding: 4px 0px;
 			span{
 				margin-left: 5px;
 				color: #818181;
+				vertical-align: middle;
 			}
 		}
 	}
@@ -1065,8 +1102,11 @@ header{
 .slider-decor{
 	border: 1px solid #d2d2d2;
 	padding: 15px;
+	width: 100%;
 	img{
 		margin-left: 5px;
+		width: 100%;
+		height: 446px;
 		margin-right: 5px;
 	}
 }
@@ -1116,11 +1156,13 @@ header{
 		padding: 10px 0px;
 		&-img{
 			padding: 0 11px;
-			margin-bottom: 10px;
+			margin-bottom: 25px;
 			img{
 				display: block;
 				width: 100%;
-			}
+				height: 180px;	
+				padding: 0;
+				}
 			a{
 				color: #698CA0;
 				display: inline-block;
@@ -1139,25 +1181,11 @@ header{
 				color: #aaaaaa;
 				display: block;
 				font-size: 13px;
-				margin-bottom: 5px;
 			}
 			span:nth-of-type(2){
 				font-family: "Roboto Med";
 				font-size: 20px;
 				color: #373737;
-				display: block;
-				margin-bottom: 5px;
-			}
-			.est-v-nalichii{
-				font-family: "Roboto Med";
-				font-size: 13px;
-				color: #81c250;
-				display: block;
-			}
-			.net-v-nalichii{
-				font-family: "Roboto Med";
-				font-size: 13px;
-				color: #ff8888;
 				display: block;
 			}
 		}
@@ -1165,14 +1193,13 @@ header{
 	}
 
 .buy-tile{ 
-	margin: 10px 0;
 	padding: 0 10px;
 	button{
 		display: inline-block;
 		vertical-align: bottom;
 		height: 30px;
 		position: absolute;
-		right: 25px;
+		right: 15px;
 		border: none;
 		background-color: #E5382A;
 		.fa-2x{
@@ -1194,7 +1221,7 @@ header{
 	.number{
 		border: 1px solid #e7e7e7;
 		width: 90px;
-		height: 34px;
+		height: 30px;
 		display: inline-block;
 		input{
 			border-right: 1px solid #e7e7e7;
@@ -1233,7 +1260,7 @@ header{
 }
 
 .wall-country{
-	margin: 10px 0;
+	margin: 6px 0;
 	padding: 0 10px;
 	a{
 		color: #CECECE;
@@ -1250,11 +1277,13 @@ header{
 		padding: 10px 0px;
 		&-img{
 			padding: 0 11px;
-			margin-bottom: 10px;
+			margin-bottom: 25px;
 			img{
 				display: block;
 				width: 100%;
-			}
+				height: 180px;	
+				padding: 0;
+				}
 			a{
 				color: #698CA0;
 				display: inline-block;
@@ -1273,102 +1302,18 @@ header{
 				color: #aaaaaa;
 				display: block;
 				font-size: 13px;
-				margin-bottom: 5px;
 			}
 			span:nth-of-type(2){
 				font-family: "Roboto Med";
 				font-size: 20px;
 				color: #373737;
 				display: block;
-				margin-bottom: 5px;
-			}
-			.est-v-nalichii{
-				font-family: "Roboto Med";
-				font-size: 13px;
-				color: #81c250;
-				display: block;
-			}
-			.net-v-nalichii{
-				font-family: "Roboto Med";
-				font-size: 13px;
-				color: #ff8888;
-				display: block;
 			}
 		}
 		}
 	}
-
-.buy-tile{ 
-	margin: 10px 0;
-	padding: 0 10px;
-	button{
-		display: inline-block;
-		vertical-align: bottom;
-		height: 30px;
-		position: absolute;
-		right: 25px;
-		border: none;
-		background-color:#E5382A;
-		.fa-2x{
-			color: white;
-			font-size: 20px;
-		}
-		span{
-			font-weight: bold;
-			text-transform: uppercase;
-			color: white;
-			font-size: 13px;
-			padding-top: 2px;
-			padding-left: 3px;
-			vertical-align: top;
-			display: inline-block;
-		}
-
-	} 
-	.number{
-		border: 1px solid #e7e7e7;
-		width: 90px;
-		height: 34px;
-		display: inline-block;
-
-		input{
-			border-right: 1px solid #e7e7e7;
-			border-left: 1px solid #e7e7e7;
-			border-top: none;
-			border-bottom: none;
-			width: 40px;
-			height: 100%;
-			font-size: 13px;
-			padding-right: 5px;
-			padding-left: 5px;
-			text-align: center;
-		}
-		.minus{
-		width: 20px;
-		height: 100%;
-		display: inline-block;
-		i{
-			margin-left: 7px;
-			font-size: 12px;
-			color: #8f8f8f;
-		}
-		}
-		.plus{
-		width: 20px;
-		height: 100%;
-		display: inline-block;
-		i{
-			margin-left: 4px;
-			color: #8f8f8f;
-			font-size: 12px;
-			}
-		}
-		}
-
-	}
-
 .floor-country{
-	margin: 10px 0;
+	margin: 6px 0;
 	padding: 0 10px;
 	a{
 		color: #CECECE;
@@ -1386,11 +1331,13 @@ header{
 		padding: 10px 0px;
 		&-img{
 			padding: 0 11px;
-			margin-bottom: 10px;
+			margin-bottom: 25px;
 			img{
 				display: block;
 				width: 100%;
-			}
+				height: 180px;	
+				padding: 0;
+				}
 			a{
 				color: #698CA0;
 				display: inline-block;
@@ -1400,8 +1347,8 @@ header{
 			}
 		}
 		&-text{
-			padding: 10px;
 			border-top: 1px solid #d2d2d2;
+			padding: 10px;
 			span:nth-of-type(1){
 				text-decoration: line-through;
 				font-family: "Roboto";
@@ -1409,106 +1356,18 @@ header{
 				color: #aaaaaa;
 				display: block;
 				font-size: 13px;
-				margin-bottom: 5px;
 			}
 			span:nth-of-type(2){
 				font-family: "Roboto Med";
 				font-size: 20px;
 				color: #373737;
 				display: block;
-				margin-bottom: 5px;
-			}
-			.est-v-nalichii{
-				font-family: "Roboto Med";
-				font-size: 13px;
-				color: #81c250;
-				display: block;
-			}
-			.net-v-nalichii{
-				font-family: "Roboto Med";
-				font-size: 13px;
-				color: #ff8888;
-				display: block;
-			}
-			.pod-zakaz{
-				font-family: "Roboto Med";
-				font-size: 13px;
-				color: #ffcc82;
-				display: block;
 			}
 		}
 		}
 	}
-
-.buy-tile{ 
-	margin: 10px 0;
-	padding: 0 10px;
-	button{
-		display: inline-block;
-		vertical-align: bottom;
-		height: 30px;
-		position: absolute;
-		right: 25px;
-		border: none;
-		background-color:#E5382A;
-		.fa-2x{
-			color: white;
-			font-size: 20px;
-		}
-		span{
-			font-weight: bold;
-			text-transform: uppercase;
-			color: white;
-			font-size: 13px;
-			padding-top: 2px;
-			padding-left: 3px;
-			vertical-align: top;
-			display: inline-block;
-		}
-
-	} 
-	.number{
-		border: 1px solid #e7e7e7;
-		width: 90px;
-		height: 34px;
-		display: inline-block;
-		input{
-			border-right: 1px solid #e7e7e7;
-			border-left: 1px solid #e7e7e7;
-			border-top: none;
-			border-bottom: none;
-			width: 40px;
-			height: 100%;
-			font-size: 13px;
-			padding-right: 5px;
-			padding-left: 5px;
-			text-align: center;
-		}
-		.minus{
-		width: 20px;
-		height: 100%;
-		display: inline-block;
-		i{
-			margin-left: 7px;
-			font-size: 12px;
-			color: #8f8f8f;
-		}
-		}
-		.plus{
-		width: 20px;
-		height: 100%;
-		display: inline-block;
-		i{
-			margin-left: 4px;
-			color: #8f8f8f;
-			font-size: 12px;
-			}
-		}
-		
-	}
-}
 .decor-country{
-	margin: 10px 0;
+	margin: 6px 0;
 	padding: 0 10px;
 	a{
 		color: #CECECE;
@@ -1524,6 +1383,7 @@ header{
 		border: 1px solid #d2d2d2;
 		margin-bottom: 10px;
 		img{
+			padding: 0;
 			display: block;
 			width: 100%;
 		}
@@ -1537,10 +1397,11 @@ header{
 			margin-top: 10px;		}
 		}
 .text{
+	margin-bottom: 45px;
 	p{
 		font-size: 14px;
 		font-family: "Roboto";
-		margin-bottom: 30px;
+		
 	}
 }
 footer{
@@ -1551,6 +1412,8 @@ footer{
 	}
 	.logo{
 		padding: 0;
+		margin-top: 20px;
+		margin-bottom: 30px;
 		img{
 			margin-right: 7px;
 			width: 64px;
@@ -1567,14 +1430,19 @@ footer{
 			margin-top: 30px;
 			display: inline-block;
 		}
-		h2{
-			font-size: 28px;
-			margin-top: 0px;
-			color: #4d4d4d;
-			margin-bottom: 30px;
+		.yandex-hover{
+			width: 95px;
+			height: 35px;
+			background-image: url(../img/icon/Яндекс.png);
+			background-position: top center;
+			background-size: contain;
+			background-repeat: no-repeat;
 		}
-		h2:hover{
-			color: #cacaca;
+		.yandex-hover:hover{
+			background-image: url(../img/icon/Яндекс_hover.png);
+			background-position: top center;
+			background-size: contain;
+			background-repeat: no-repeat;
 		}
 	}
 	.soc{
@@ -1604,7 +1472,7 @@ footer{
 	}
 	.telephone{
 		p{
-			margin-top: 20px;
+			margin-top: 30px;
 			margin-bottom: 0;
 			color: #cacaca;
 			font-size: 12px;
@@ -1626,10 +1494,11 @@ footer{
 	}
 	
 	ul{
+		margin-top: 30px;
 		list-style: none;
 		padding: 0;
 		li{
-			margin-top: 15px;
+			margin-top: 20px;
 			a{
 				font-size: 14px;
 				font-family: "Roboto Med";
@@ -1656,6 +1525,7 @@ footer{
 	}
 	.decor-icon{
 		margin-top: 3px;
+		margin-bottom: -2px;
 		.decor-icon-block{
 			display: inline-block;
 			margin-left: 10px;
@@ -1719,6 +1589,7 @@ footer{
 	}
 	.floor-icon{
 		margin-top: 3px;
+		margin-bottom: -2px;
 		.decor-icon-block{
 			display: inline-block;
 			margin-left: 10px;
@@ -1782,6 +1653,7 @@ footer{
 	}
 	.wall-icon{
 		margin-top: 3px;
+		margin-bottom: -2px;
 		.decor-icon-block{
 			display: inline-block;
 			margin-left: 10px;
@@ -1847,7 +1719,7 @@ footer{
 @media (min-width: 768px) and (max-width: 980px) {
 
 	.main-content #sidebar-toggle{
-		margin-top: 35px;
+		margin-top: 45px;
 	}
 	.logo{
 		img{
@@ -1913,6 +1785,9 @@ footer{
 .table-open input:checked ~ section.table{
     height: 1465px;
 	}
+.slider-decor img{
+	height: 342px;
+}	
 .wall{
 	&-tile{
 
@@ -1921,6 +1796,7 @@ footer{
 		border: none;
 			img{
 				width: auto;
+				height: 90px;
 				margin-top: 25px;
 			}
 			a{
@@ -1930,7 +1806,6 @@ footer{
 			}
 		}
 		&-text{
-			margin-top: 55px;
 			border: none;
 		}
 	}
@@ -1942,6 +1817,7 @@ footer{
 		border: none;
 			img{
 				width: auto;
+				height: 90px;
 				margin-top: 25px;
 			}
 			a{
@@ -1951,7 +1827,6 @@ footer{
 			}
 		}
 		&-text{
-			margin-top: 55px;
 			border: none;
 		}
 	}
@@ -1963,6 +1838,7 @@ footer{
 		border: none;
 			img{
 				width: auto;
+				height: 90px;
 				margin-top: 25px;
 			}
 			a{
@@ -1972,18 +1848,17 @@ footer{
 			}
 		}
 		&-text{
-			margin-top: 55px;
 			border: none;			
 		}
 	}
 }
 .adaptiv-a{
-	margin-top: 65px;
-		a{
-		margin-left: 170px;
+	position: absolute;
+	right: 15px;
+	top: 35%;
+	a{
 		display: block;
-		padding: 10px;
-		text-align: center;
+		text-align: right;
 		i{
 			color: #ff8b82;
 		}
@@ -1991,12 +1866,12 @@ footer{
 }
 
 .adaptiv-b{
-	margin-top: 40px;
+	position: absolute;
+	right: 15px;
+	top: 20%;
 	a{
-		margin-left: 170px;
 		display: block;
-		padding: 10px;
-		text-align: center;
+		text-align: right;
 		i{
 			color: #ff8b82;
 		}
@@ -2004,7 +1879,8 @@ footer{
 }
 .recomed{
 	img{
-		width: auto;
+		width: 90px;
+		height: 90px;
 	}
 }
 footer{
@@ -2066,6 +1942,7 @@ footer{
 	}
 
 }
+
 }
 @media (min-width: 320px) and (max-width: 767px) {
 .korzina-shop{
@@ -2178,6 +2055,7 @@ right: 15px;
 		border: none;
 			img{
 				width: 90px;
+				height: 90px;
 				margin-top: 25px;
 			}
 			a{
@@ -2188,6 +2066,7 @@ right: 15px;
 			}
 		}
 		&-text{
+			margin-left: 15px;
 			margin-top: 15px;
 			border: none;
 		}
@@ -2204,6 +2083,7 @@ right: 15px;
 		border: none;
 			img{
 				width: 90px;
+				height: 90px;
 				margin-top: 25px;
 			}
 			a{
@@ -2214,6 +2094,7 @@ right: 15px;
 			}
 		}
 		&-text{
+			margin-left: 15px;
 			margin-top: 15px;
 			border: none;
 		}
@@ -2230,6 +2111,7 @@ right: 15px;
 		border: none;
 			img{
 				width: 90px;
+				height: 90px;
 				margin-top: 25px;
 			}
 			a{
@@ -2242,6 +2124,7 @@ right: 15px;
 		&-text{
 			margin-top: 15px;
 			border: none;
+			margin-left: 15px;
 		}
 			&-text span:nth-of-type(2){
 				font-size: 14px;
@@ -2301,16 +2184,16 @@ right: 15px;
 		.object{
 			padding: 0;
 		}
-		.padding-none{
-			padding: 0;
-		}
+		
 		.block-sell{
 			margin-left: 0;
 		}
 		ul { list-style-type: none; }
 
 
-
+.padding-none{
+			padding: 0;
+		}
 .accordion .link {
   background-color: #323232;
   cursor: pointer;
